@@ -4,6 +4,7 @@ const app = express();
 const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
 const productsRoute = require("./routers/products/products.js");
+const serverless = require("serverless-http");
 
 // This define the basepath of the application
 const basePath = config.BASE_PATH + "/" + config.API_VERSION;
