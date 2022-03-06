@@ -1,0 +1,26 @@
+{
+	"name": "ripple-store-system-api",
+	"version": "1.0.0",
+	"description": "This is a system API for Ripple Store. Built using Express JS, Mongodb",
+	"main": "index.js",
+	"scripts": {
+		"start": "./node_modules/.bin/netlify-lambda serve src",
+		"build": "./node_modules/.bin/netlify-lambda build src"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/sonishreyas/ripple-store-system-api.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/sonishreyas/ripple-store-system-api/issues"
+	},
+	"homepage": "https://github.com/sonishreyas/ripple-store-system-api#readme",
+	"dependencies": {
+		"express": "^4.17.3",
+		"netlify-lambda": "^2.0.15",
+		"serverless-http": "^2.7.0"
+	}
+}
