@@ -1,0 +1,30 @@
+{
+	"name": "ripple-store-system-api",
+	"version": "1.0.0",
+	"description": "This is a system API for Ripple Store. Built using Express JS, Mongodb",
+	"main": "main.js",
+	"scripts": {
+		"stage": "set NODE_ENV=stage&& nodemon main.js",
+		"production": "set NODE_ENV=production&& nodemon main.js",
+		"sandbox": "set NODE_ENV=sandbox&& nodemon main.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/sonishreyas/ripple-store-system-api.git"
+	},
+	"keywords": [],
+	"author": "ripple-dev",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/sonishreyas/ripple-store-system-api/issues"
+	},
+	"homepage": "https://github.com/sonishreyas/ripple-store-system-api#readme",
+	"dependencies": {
+		"dotenv": "^16.0.0",
+		"express": "^4.17.3",
+		"mongoose": "^6.2.4"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.15"
+	}
+}
