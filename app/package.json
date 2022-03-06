@@ -4,9 +4,9 @@
 	"description": "This is a system API for Ripple Store. Built using Express JS, Mongodb",
 	"main": "main.js",
 	"scripts": {
-		"stage": "set NODE_ENV=stage&& nodemon main.js",
-		"production": "set NODE_ENV=production&& nodemon main.js",
-		"sandbox": "set NODE_ENV=sandbox&& nodemon main.js"
+		"stage": "set NODE_ENV=stage&& node main.js",
+		"production": "set NODE_ENV=production&& node main.js",
+		"sandbox": "set NODE_ENV=sandbox&& node main.js"
 	},
 	"repository": {
 		"type": "git",
