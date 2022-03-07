@@ -16,6 +16,8 @@ router.get("/hi", (req, res) => {
 });
 
 app.use("/.netlify/functions/api", router);
-
+app.listen(80, function () {
+	console.log("CORS-enabled web server listening on port 80");
+});
 module.exports = app;
 module.exports.handler = serverless(app);
